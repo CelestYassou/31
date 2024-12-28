@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte à Rebours</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="countdown-container" id="countdown-container">
+        <h1>Compte à Rebours jusqu'au Nouvel An</h1>
+        <div id="countdown"></div>
+    </div>
+    <div id="new-year" class="hidden">
+        <h1 class="animate">Bonne année 2025 !</h1>
+        <p id="prize"></p>
+        <canvas id="confetti-canvas"></canvas>
+    </div>
+    <div id="code-access" class="hidden">
+        <h2>Accéder au Code</h2>
+        <input type="text" id="identifier" placeholder="Entrez l'identifiant">
+        <button onclick="verifyIdentifier()">Accéder</button>
+    </div>
+    <pre id="code" class="hidden"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
