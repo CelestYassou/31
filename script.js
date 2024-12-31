@@ -32,7 +32,7 @@ const countdownInterval = setInterval(updateCountdown, 1000);
 updateCountdown();
 
 function showPrize() {
-    const prizes = ["Un voyage", "Un smartphone", "Un abonnement Netflix", "Une carte cadeau"];
+    const prizes = ["Rien (Retentez votre chance l'année prochaine !)", "Rien (Retentez votre chance l'année prochaine !)", "Rien (Retentez votre chance l'année prochaine !)", "Rien (Retentez votre chance l'année prochaine !)"];
     const randomPrize = prizes[Math.floor(Math.random() * prizes.length)];
     document.getElementById('prize').innerHTML = `Vous avez gagné : ${randomPrize}`;
 }
